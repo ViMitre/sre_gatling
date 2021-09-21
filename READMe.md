@@ -1,4 +1,5 @@
 # Performance testing
+![](img/diagram.png)
 ## Gatling
 
 ### Steps
@@ -19,3 +20,9 @@
 - On `Automatic Scaling` tab, click on `Create dynamic scaling policy`
 ### Example:
 ![](img/3.png)
+
+## Create event to scale down
+![](img/4.png)
+![](img/5.png)
+### Create an alarm
+![](img/6.png)
