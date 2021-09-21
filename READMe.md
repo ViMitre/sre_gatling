@@ -13,3 +13,9 @@
 - The recorded activity is now added as a test
 - Run the test using `gatling.bat` or `gatling.sh` (choose the appropriate one)
 - To increase the number of requests, increase the number in the last line: `setUp(scn.inject(atOnceUsers(1))).protocols(httpProtocol)` and run the test again
+
+## Create event(s) to trigger ASG
+- Select an ASG 
+- On `Automatic Scaling` tab, click on `Create dynamic scaling policy`
+### Example:
+![](img/3.png)
