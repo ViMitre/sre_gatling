@@ -21,8 +21,21 @@
 ### Example:
 ![](img/3.png)
 
-## Create event to scale down
+### Create a dynamic scaling policy to scale in
+![](img/6.png)
+
+### Create an alarm for each policy (scale out and scale in)
+- Select metric<br>
+EC2 -> By Auto Scaling Group -> Select metric
+- Set metric options and conditions
 ![](img/4.png)
 ![](img/5.png)
-### Create an alarm
-![](img/6.png)
+- Add notification
+![](img/9.png)
+- Click on `Create a new topic` if there isn't one yet
+- Name it and add an email address
+- Add appropriate Auto Scaling Action
+![](img/10.png)
+- Name it and finish creation of alarm
+
+![](img/diagram2.png)
