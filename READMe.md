@@ -1,8 +1,23 @@
 # Performance testing
 ![](img/diagram.png)
-## Gatling
+## Types of testing
+- Load testing<br>
+Checking performance under a large number of virtual users
+- Stress testing<br>
+Testing how the system behaves with extreme loads
+- Soak testing<br>
+Testing with a large load over a long period of time
+- Spike testing<br>
+Testing with a sudden increase and decrease in load
 
-### Steps
+## What Should be Monitored for an Internet Facing Application
+- Resource Monitoring (CPU, Network, Memory, etc.)
+- Network Monitoring (in and out)
+- Application Performance Monitoring
+- Third-party resources/components
+
+
+# Steps
 - Launch the app template
 - Make sure auto-scaling is in place
 - Record activity on the webpage with the browser
@@ -39,3 +54,4 @@ EC2 -> By Auto Scaling Group -> Select metric
 - Name it and finish creation of alarm
 
 ![](img/diagram2.png)
+
